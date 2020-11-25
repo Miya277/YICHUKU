@@ -1,0 +1,77 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/index", 
+    "pages/dynamic/index",
+    "pages/donation/index",
+    "pages/message/index",
+    "pages/my/index",
+    "pages/like/index",
+    "pages/recommend/index",
+    "pages/groupBooking/index",
+    "pages/secondhand/index",
+    "pages/goods_detail/index",
+    "pages/cart/index",
+    "pages/usInfomation/index",
+    "pages/privateInfomation/index" ,
+    "pages/addressManage/index", 
+    "pages/addAddress/index",
+    "pages/feedback/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "疫出库",
+    "navigationBarTextStyle":"white"
+  },
+  
+ 
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/_home.png"
+      },
+      {
+        "pagePath": "pages/recommend/index",
+        "text": "推荐",
+        "iconPath": "icons/recommend.png",
+        "selectedIconPath": "icons/_recommend.png"
+      }
+      ,
+      
+      {
+        "pagePath": "pages/message/index", 
+        "text": "分类",
+        "iconPath": "icons/category.png", 
+        "selectedIconPath": "icons/_category.png"   
+      }
+      ,
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "icons/cart.png",
+        "selectedIconPath": "icons/_cart.png"
+      }
+      ,
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "icons/mine.png",
+        "selectedIconPath": "icons/_mine.png"   
+      }
+    ]
+  },
+
+  
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
