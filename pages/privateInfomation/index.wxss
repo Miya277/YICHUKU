@@ -1,0 +1,37 @@
+
+.mainText{
+  justify-content: center;
+  font-size: 30rpx;
+  padding-left: 3%;
+  padding-right: 2%;
+}
+
+.mainText .headLine{
+  font-size: 45rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.mainText .vaildTime{
+  padding-left: 58%;
+  font-weight: bold;
+}
+.mainText .introduction{
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.mainText .smallHeadLine{
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.mainText .smallIntroduction{
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.itemIntroduction{
+  font-weight: bold;
+  font-size: 30rpx;
+}
+.end{
+  font-weight: bold;
+  font-size: 36rpx;
+}

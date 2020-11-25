@@ -1,0 +1,41 @@
+page{ 
+  display: flex; 
+  flex-direction: column; 
+  height: 100%; 
+ } 
+ .navbar{ 
+  flex: none; 
+  display: flex; 
+  background: #fff; 
+ } 
+ .navbar .item{ 
+  position: relative; 
+  flex: auto; 
+  text-align: center; 
+  line-height: 80rpx; 
+ } 
+ .navbar .item.active{ 
+  color: var(--themeColor); 
+ } 
+ .navbar .item.active:after{ 
+  content: ""; 
+  display: block; 
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  height: 4rpx; 
+  background: var(--themeColor);
+ } 
+.widget_arrow{
+  justify-content: center;
+}
+.goods_name{
+  font-size: 36rpx;
+}
+.goods_kind{
+  font-size: 25rpx;
+}
+.goods_recommend{
+  font-size: 25rpx;
+}

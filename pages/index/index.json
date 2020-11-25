@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "Tabs":"../../components/Tabs/Tabs",
+    "SearchInput":"../../components/SearchInput/SearchInput"
+  },
+  "navigationBarTitleText": "疫出库",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

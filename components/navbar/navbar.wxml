@@ -1,0 +1,24 @@
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+    bindtap="navbarTap">{{item}}</text>
+</view>
+
+<!--首页-->
+<view hidden="{{currentTab!==0}}">
+  tab_01
+</view>
+
+<!--搜索-->
+<view hidden="{{currentTab!==1}}">
+  tab_02
+</view>
+
+<!--我-->
+<view hidden="{{currentTab!==2}}">
+  tab_03
+</view>
+<image class="widget_arrow"  mode="widthFix" src="https://img.rruu.net/image/5f81b8a554d34"></image>
+<view class="goods_name">YICHUKU-YI起大配送</view>
+<view class="goods_kind">购物-家电</view>
+<view class="goods_recommend">5967推荐 ▪ 3566喜欢.............................................2小时前</view>

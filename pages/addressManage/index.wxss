@@ -1,0 +1,39 @@
+.addressList{
+  display: flex;
+  flex-direction: column;
+
+  height: 100rpx;
+  border-bottom: 1rpx solid #ccc;
+
+  padding-left: 20rpx;
+  
+}
+
+.name{
+  font-size: 36rpx;
+  display:flex;
+}
+.phoneNum{
+  position: relative;
+  left:20rpx;
+  font-size: 34rpx;
+  color: rgba(27, 26, 26, 0.479);
+}
+.address{
+  font-size: 38rpx;
+  overflow: hidden;
+}
+
+.editMessage{
+  font-size: 30rpx;
+  border: none;
+  position:absolute;
+  right:0rpx;
+  margin-right: 0rpx;
+  padding-right: 0rpx;
+  margin-bottom: 0rpx;
+  padding-bottom: 0rpx;
+  background-color: white;
+  color: rgba(27, 26, 26, 0.479);
+
+}

@@ -1,0 +1,55 @@
+<!--导航条-->
+<view class="navbar">
+    <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+        bindtap="navbarTap">{{item}}</text>
+</view>
+<!--搜索框开始-->
+<SearchInput></SearchInput>
+<!--搜索框结束-->
+
+<!--首页-->
+<view hidden="{{currentTab!==0}}">
+    <image class="widget_arrow" mode="widthFix" src="https://img.rruu.net/image/5f81b8a554d34"></image>
+    <text class="goods_name">YICHUKU-YI起大配送\n</text>
+    <text class="goods_kind">购物-家电\n</text>
+    <view class="infomation">
+        <text class="goods_recommend">5967推荐 ▪ 3566喜欢</text>
+        <text class="goods_time">2小时前</text>
+    </view>
+
+    <image class="widget_arrow" mode="widthFix" src="https://img.rruu.net/image/5f82c16c139e7"></image>
+    <text class="goods_name">YICHUKU-中国味\n</text>
+    <text class="goods_kind">美食-小吃\n</text>
+    <view class="infomation">
+        <text class="goods_recommend">3864推荐 ▪ 5566喜欢</text>
+        <text class="goods_time">3小时前</text>
+    </view>
+    
+    <image class="widget_arrow" mode="widthFix" src="https://img.rruu.net/image/5f82c1ee17314"></image>
+    <text class="goods_name">YICHUKU-中国味道\n</text>
+    <text class="goods_kind">美食-小吃\n</text>
+    <view class="infomation">
+        <text class="goods_recommend">38884推荐 ▪ 55556喜欢</text>
+        <text class="goods_time">4小时前</text>
+    </view>
+</view>
+
+<!--关注-->
+<view hidden="{{currentTab!==1}}">
+    <navigator url="pages/like/index" open-type="switchTab"></navigator>
+</view>
+
+<!--推荐-->
+<view hidden="{{currentTab!==2}}">
+    <navigator url="pages/recommend/index" open-type="navigate"></navigator>
+</view>
+
+<!--拼团-->
+<view hidden="{{currentTab!==3}}">
+    <navigator url="pages/groupBooking/index" open-type="navigate"></navigator>
+</view>
+
+<!--拍卖-->
+<view hidden="{{currentTab!==4}}">
+    <navigator url="pages/secondhand/index" open-type="navigate"></navigator>
+</view>

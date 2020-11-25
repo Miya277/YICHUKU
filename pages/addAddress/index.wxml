@@ -1,0 +1,29 @@
+<form bindsubmit="saveAddress">
+  <view class="inputUserInfos after">
+    <view class="inputUserInfo input">
+      <view class="inputUserInfo_hd">
+        <view class="inputUserInfo_label">收货人</view>
+      </view>
+      <view class="inputUserInfo_bd">
+       <input class="input" name="name" placeholder="收货人的姓名"/>
+      </view>
+    </view>
+    <view class="inputUserInfo input">
+      <view class="inputUserInfo_hd">
+        <view class="inputUserInfo_label">电话号码</view>
+      </view>
+      <view class="inputUserInfo_bd">
+       <input class="input" name="phoneNum" placeholder="收货人的电话号码"/>
+      </view>
+    </view>
+    <view class="inputUserInfo input">
+      <view class="inputUserInfo_hd">
+        <view class="inputUserInfo_label ">所在地区及详细地址</view>
+      </view>
+      <view class="inputUserInfo_bd">
+       <input class="input" name="address" placeholder="收货人的所在地区及详细地址"/>
+      </view>
+    </view>
+  </view>
+  <button class="btn" form-type="submit">保存</button>
+</form>

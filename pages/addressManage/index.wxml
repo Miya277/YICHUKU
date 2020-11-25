@@ -1,0 +1,10 @@
+<view class="addressList" wx:for="{{list}}">
+  <view class="name">{{item.name}}
+    <view class="phoneNum">{{item.phoneNum}}</view>
+  </view>
+  <view class="address">地址:{{item.address}}</view>
+  <button style="width:20vw" class="editMessage" bindtap = 'edit'>编辑</button>
+</view>
+<view class="addInfomation">
+  <button bindtap = 'gotoAddInfo'>添加新的收货地址</button>
+</view>
